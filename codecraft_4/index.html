@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <h1 class="logo">SAURABH KALE</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Saurabh Kale</span></h1>
+            <p>A passionate Web Developer</p>
+            <button onclick="scrollToSection('projects')">View My Work</button>
+        </div>
+        <img src="Saurabh Kale img 50kb.jpg" alt="Your Photo" class="profile-photo">
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Dedicated and detail-oriented Computer Engineer with a solid foundation with my technical skills and passionate
+            about solving complex problems through innovative solutions, Seeking an entry-level position to contribute
+            technical expertise and grow within a dynamic organization.</p>
+        <ul>
+            <li>Education: Bachelor's of Computer Engineer</li>
+            <li>Experience: java Full-Stack Developer</li>
+            <li>Skills: HTML5, CSS3, JavaScript, core Java, Adv Java, Mysql</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>ANIMAL SLIDER</h3>
+                <p>mini project</p>
+                <a href="https://github.com/saurabhkale11/Project5-Sk-animal-slider" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>RESTAURANT</h3>
+                <p>mini project</p>
+                <a href="https://github.com/saurabhkale11/project1-Sk-restaurant" target="_blank">View Project</a>
+            </div>
+        
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="3" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Saurabh Kale. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

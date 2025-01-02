@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 3%, 12%);
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(17, 17, 17);
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #d98a12;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #cfeec7;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.about-section,
+.projects-section,
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.project-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+    gap: 20px;
+    
+}
+
+.project-card {
+    text-align: center;
+    background: rgb(174, 214, 204);
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card a {
+    text-align: center;
+    color: #204c7b;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f7f0f0;
+    color: rgb(53, 18, 135);
+}
